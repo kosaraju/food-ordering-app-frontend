@@ -1,0 +1,112 @@
+/* Styling the header banner and aligning items to center */
+
+.app-header {
+    background-color: #273238;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* Set the width of search box section */
+
+#search-box-section {
+    width: 300px;
+}
+
+/* Style the search icon with margin and padding */
+
+.search-icon {
+    color: white;
+    margin-right: 5px;
+    padding-bottom: 5px;
+}
+
+/* Set margin right for the account icon beside login */
+
+.account-icon {
+    margin-right: 5px;
+}
+
+/* Set color, margin right for the account icon beside user name */
+
+.user-account-icon {
+    color: #c3c3c3;
+    margin-right: 5px;
+}
+
+/* Set color, text ransform for the user name beside account icon */
+
+.user-name {
+    color: #c3c3c3;
+    text-transform: none;
+}
+
+/* Set top margin for the Profile options Menu */
+
+.profile-options-menu {
+    margin-top: 35px;
+}
+
+/* Style the menu options with bold text */
+
+.menu-option {
+    font-weight: 500;
+}
+
+/* Style the menu option link with color and decoration */
+
+.menu-option-link {
+    color: black;
+    text-decoration: none;
+}
+
+/** Set the bottom margin for tabs on modal */
+
+.tabs {
+    margin-bottom: 20px;
+}
+
+/** Set the padding and alignment for tab container */
+
+.tab-container {
+    padding: 0px;
+    text-align: center;
+}
+
+/** Set the display as none, in order to hide the element */
+
+.dispNone {
+    display: none;
+}
+
+/** Set the display as none, in order to show a hidden element */
+
+.dispBlock {
+    display: block;
+}
+
+/** Set the color red for Error Field validation messages */
+
+.red {
+    color: red;
+}
+
+/* Set the style based on screen width */
+
+@media(max-width: 525px) {
+    /* align elements vertically in small screens */
+    .app-header {
+        flex-direction: column;
+        align-items: baseline;
+        min-width: 100%;
+    }
+}
+
+/* Set the style for low screen width like small mobiles */
+
+@media(max-width:310px) {
+    #search-box-section {
+        width: auto;
+    }
+}
