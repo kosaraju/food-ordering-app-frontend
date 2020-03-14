@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import Controller from './screens/Controller';
+import Controller from './common/Controller';
 
 
 ReactDOM.render(<Controller/>,document.getElementById('root')

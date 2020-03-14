@@ -1,0 +1,81 @@
+/* Style for the header  */
+.app-header{
+    display: flex;
+    background-color:rgb(37, 50,56);
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Style for the log */
+.app-logo{
+    padding-left: 10px;
+    align-self: center;
+}
+
+/* Responsive Code for the Header */
+@media screen and (max-width:600px){
+    .app-header{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content:space-between;
+    }
+    .app-logo{
+        align-self:flex-start;
+    }
+}
+
+
+/* Style for the searchbox */
+.header-searchbox{
+    display: flex;
+    /* align-self: center; */
+    align-items: center;
+    /* justify-content: center; */
+    width: 300px;
+    align-self: flex-start;
+    height: 40px;
+}
+
+/* Style for the SerachIcon */
+#search-icon{
+    height: 27px;
+    padding: 0px 0px 0px 10px;
+}
+
+/* Style fro the login Button */
+.login-button-icon{
+    padding-right: 10px;
+}
+
+/* Style for the Profile Button */
+.profile-button-icon{
+    padding-right: 10px;
+}
+
+/* Style for the login modal  */
+.login-modal-tabs {
+    margin-bottom: 20px;
+}
+
+/* Style to not display the component  */
+.dispNone {
+    display: none;
+}
+
+/* Style to display the component */
+.dispBlock {
+    display: block;
+}
+
+/* style to change the color */
+.red {
+    color: red;
+}
+
+/* style for the menu when clicked on profile_picture */
+#profile-menu{
+    margin-top: 30px;
+    padding: 0px;
+    margin-left: 20px;
+}
