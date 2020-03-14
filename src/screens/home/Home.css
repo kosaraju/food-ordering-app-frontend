@@ -1,0 +1,26 @@
+/** Set the display as none, in order to hide a element */
+
+.dispNone {
+  display: none;
+}
+
+/** Set the display as block, in order to show a hidden element */
+
+.dispBlock {
+  display: block;
+}
+
+/* Set the margin for the grid container */
+
+.grid-container {
+  margin: 22px 50px;
+}
+
+/* Set the style based on screen width */
+
+@media(max-width: 600px) {
+  /* Set the margin for the grid container when the screen width is below 600px */
+  .grid-container {
+    margin: 22px;
+  }
+}
